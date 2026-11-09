@@ -1,0 +1,49 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+**/firebase-credentials.json
+**/google-services.json
+**/GoogleService-Info.plist
+**/*.pem
+
+# Flutter/Dart generated files
+.dart_tool/
+.pub/
+build/
+coverage/
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+
+# Android/iOS machine files
+**/local.properties
+**/android/.gradle/
+**/ios/Pods/
+**/ios/Flutter/ephemeral/
+
+# PHP/Laravel generated files
+backend/vendor/
+backend/storage/framework/cache/data/*
+backend/storage/framework/sessions/*
+backend/storage/framework/views/*
+backend/storage/logs/*.log
+backend/bootstrap/cache/*.php
+
+# Archives and backups
+*.rar
+*.zip
+*.7z
+*.tar.gz
+
+# Excluded documentation
+*دليل*
+*3cc2039752f580099205f0515f1addba*
+*.pdf
+
+# IDE/OS
+.idea/
+.vscode/*
+!.vscode/README.md
+*.iml
+.DS_Store
