@@ -84,8 +84,8 @@
 
 #### 1️⃣ استنساخ المشروع (Clone Repository)
 ```bash
-git clone https://github.com/ENG-Ebraheem/fhayy-community.git
-cd fhayy-community
+git clone https://github.com/ENG-Ebraheem/hayy-community.git
+cd hayy-community
 ```
 
 #### 2️⃣ إعداد وتشغيل السيرفر (Laravel Backend)
@@ -179,8 +179,8 @@ Ensure you have the following installed on your environment:
 
 #### 1. Clone the Repository
 ```bash
-git clone https://github.com/ENG-Ebraheem/fhayy-community.git
-cd fhayy-community
+git clone https://github.com/ENG-Ebraheem/hayy-community.git
+cd hayy-community
 ```
 
 #### 2. Backend Setup (Laravel)
@@ -231,7 +231,7 @@ stateDiagram-v2
 ## 📁 هيكل المشروع | Project Structure
 
 ```
-fhayy-community/
+hayy-community/
 ├── backend/                   # Laravel 10 API
 │   ├── app/
 │   │   ├── Http/Controllers/  # Controllers (Auth, Tasks, Volunteers, Ratings)
